@@ -12,6 +12,12 @@ body {
   background: #050816;
   color: #e5e7eb;
   line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
 }
 
 /* GLOBAL CONTAINER */
@@ -114,6 +120,8 @@ body {
 /* HERO SECTION */
 .hero {
   padding: 3rem 0 2rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .hero-grid {
@@ -150,6 +158,19 @@ body {
   display: flex;
   gap: 0.75rem;
 }
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(56,189,248,0.25), transparent 60%);
+  top: -120px;
+  right: -80px;
+  filter: blur(4px);
+  opacity: 0.6;
+  pointer-events: none;
+}
 
 /* BUTTONS */
 .btn {
@@ -173,6 +194,9 @@ body {
 
 .btn.primary:hover {
   background: #0ea5e9;
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 40px rgba(15,23,42,0.8);
 }
 
 .btn.ghost {
@@ -182,7 +206,9 @@ body {
 }
 
 .btn.ghost:hover {
-  border-color: #9ca3af;
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 40px rgba(15,23,42,0.8);
 }
 
 .btn:active {
@@ -247,10 +273,16 @@ body {
 }
 
 .skill-card {
-  background: #020617;
+  background: radial-gradient(circle at top left, #111827, #020617);
   border-radius: 1rem;
   padding: 1rem;
   border: 1px solid rgba(148, 163, 184, 0.35);
+   transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+}
+.skill-card:hover {
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 40px rgba(15,23,42,0.8);
 }
 
 .skill-card h3 {
@@ -270,6 +302,11 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   border: 1px solid rgba(148, 163, 184, 0.35);
+}
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #38bdf8;
+  box-shadow: 0 15px 40px rgba(15,23,42,0.8);
 }
 
 .project-card h3 {
@@ -292,6 +329,9 @@ body {
   margin-right: 0.35rem;
   margin-top: 0.35rem;
 }
+.footer {
+  margin-top: auto;
+}
 
 /* ABOUT PAGE */
 .about-grid {
@@ -310,6 +350,11 @@ body {
   border-radius: 1rem;
   padding: 1rem;
   border: 1px solid rgba(148, 163, 184, 0.35);
+}
+.footer{
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 /* CONTACT */
