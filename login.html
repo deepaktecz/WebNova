@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Deepak Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="page-wrapper">
+    <div class="auth-card">
+      <!-- Left yellow panel -->
+      <div class="auth-side">
+        <h2>Login</h2>
+        <p class="side-link">
+          <a href="forgot-password.html">Forgot Password?</a>
+        </p>
+        <p class="side-link">
+          New here? <a href="create-account.html">Create Account</a>
+        </p>
+      </div>
+
+      <!-- Right white panel -->
+      <div class="auth-main">
+        <h1 class="auth-title">Welcome Back</h1>
+        <p class="auth-subtitle">Login to access your profile page</p>
+
+        <form class="auth-form">
+          <label class="input-group">
+            <span>Email or username</span>
+            <input type="text" placeholder="Enter your email or username" />
+          </label>
+
+          <label class="input-group">
+            <span>Password</span>
+            <input type="password" placeholder="Enter your password" />
+          </label>
+
+          <button type="submit" class="btn-primary">Login</button>
+        </form>
+
+        <div class="divider">
+          <span>Or continue with</span>
+        </div>
+
+        <div class="social-row">
+          <button type="button" class="social-btn">GitHub</button>
+          <button type="button" class="social-btn">LinkedIn</button>
+          <button type="button" class="social-btn">Gmail</button>
+          <button type="button" class="social-btn">Instagram</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="main-footer">
+  <p>© 2025 Deepak Kumar. All rights reserved.</p>
+
+  <div class="footer-social">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+</footer>
+
+<!-- Firebase SDKs -->
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<!-- Your JS -->
+<script src="login.js"></script>
+
+</body>
+</html>
