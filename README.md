@@ -15,8 +15,23 @@ It represents my skills, projects, and contact information in a clean and modern
 - Smooth navigation
 
 ## 🛠 Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## 📂 Folder Structure
+WebNova/
+│── index.html
+│── styles.css
+│── script.js
+└── portfolio-site.jpg
+
+## 🧑‍💻 Author
+**Deepak Kumar**  
+Full Stack Developer
+
+- GitHub: https://github.com/deepaktecz
+- LinkedIn: https://www.linkedin.com/in/deepaktecz/
+
+## 📜 License
+This project is open source and available for learning and personal use.
