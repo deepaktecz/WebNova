@@ -17,14 +17,7 @@ It represents my skills, projects, and contact information in a clean and modern
 ## 🛠 Technologies Used
 - HTML
 - CSS
-- JavaScript
-
-## 📂 Folder Structure
-WebNova/
-│── index.html
-│── styles.css
-│── script.js
-└── portfolio-site.jpg
+- JavaScript 
 
 ## 🧑‍💻 Author
 **Deepak Kumar**  
