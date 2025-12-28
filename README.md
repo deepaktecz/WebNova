@@ -4,7 +4,7 @@ This is my personal portfolio website created using **HTML, CSS, and JavaScript*
 It represents my skills, projects, and contact information in a clean and modern design.
 
 ## 🚀 Live Website
-🔗 https://your-username.github.io/WebNova/
+🔗 https://deepaktecz.github.io/WebNova/
 
 ## ✨ Features
 - Fully responsive design
@@ -25,6 +25,3 @@ Full Stack Developer
 
 - GitHub: https://github.com/deepaktecz
 - LinkedIn: https://www.linkedin.com/in/deepaktecz/
-
-## 📜 License
-This project is open source and available for learning and personal use.
