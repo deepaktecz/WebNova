@@ -1,5 +1,9 @@
 # 🌐 WebNova – Personal Portfolio Website
 
+### 📸 Screenshot
+
+![Calculator](portfolio.png)
+
 This is my personal portfolio website created using **HTML, CSS, and JavaScript**.  
 It represents my skills, projects, and contact information in a clean and modern design.
 
@@ -25,3 +29,4 @@ Full Stack Developer
 
 - GitHub: https://github.com/deepaktecz
 - LinkedIn: https://www.linkedin.com/in/deepaktecz/
+
